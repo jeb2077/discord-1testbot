@@ -4,8 +4,6 @@ import os
 
 
 
-from discord.ext.commands import Bot
-
 import config
 
 
