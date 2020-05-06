@@ -1,5 +1,6 @@
 import discord
 from discord import utils
+import os
 
 from discord.ext.commands import Bot
 
@@ -42,7 +43,7 @@ class MyClient(discord.Client):
 
 
 
-
+token = os.environ.get('BOT_TOKEN')
 # RUN
 client = MyClient()
 client.run(config.TOKEN)
