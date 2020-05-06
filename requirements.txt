@@ -1,2 +1,5 @@
 discord.py
 config
+aiohttp
+websockets
+chardet
